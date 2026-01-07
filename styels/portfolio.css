@@ -48,6 +48,13 @@
     line-height: 30px;
     color: #757575;
 }
+ 
+.text-center{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
 /* main styles */
 
 header{
@@ -185,4 +192,39 @@ nav .manu a{
     line-height: 28px;
     color: #757575;
 }
-
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-container{
+    display: flex;
+    gap: 70px;
+}
+footer .footer-container .social{
+    max-width: 562px;
+}
+.footer-container h2{
+    font-size: 30px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container p{
+    color: #474747;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-container .icon a{
+    margin-right: 24px;
+}
+.footer-container form input[type=text],
+.footer-container form textarea{
+    width: 441px;
+    padding: 18px 30px;
+    border: none;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 14px;
+}
